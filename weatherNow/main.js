@@ -6,7 +6,7 @@ let cityData = [
 ];
 
 let weatherAPI_URL = "https://api.openweathermap.org/data/2.5/weather?";
-let weatherMapAPIKey = "";
+let weatherMapAPIKey = "8196bbe87beaa0661ce689074f8a701b";
 
 let params = {
     appid: weatherMapAPIKey,
