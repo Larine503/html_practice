@@ -1469,7 +1469,7 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		border: 0;
 		background: #f4f4f4;
 		padding: 0.75em;
@@ -1552,6 +1552,8 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			border: 20px solid rgba(179, 32, 32, 0.932);
+    		border-radius: 10px;
 		}
 
 		.image.featured {
@@ -1586,7 +1588,7 @@ input, select, textarea {
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: inline-block;
 		background-color: #222222;
 		color: #ffffff;
