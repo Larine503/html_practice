@@ -1,0 +1,116 @@
+/* #car{
+    position: fixed;
+    width: 200px;
+    height: 90px;
+    background-color: rgb(0, 60, 128);
+    left: 20px;
+    top:20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 30px;
+} */
+/* .wheel{
+    width: 50px;
+    animation: rotating 1s linear infinite; */
+    /* animation-name: rotating; */
+    /* animation-direction: 1s;   */
+    /* 持續時間 */
+    /* animation-iteration-count: infinite;  */
+    /* 重複次數 */
+    /* animation-timing-function: linear; */
+    /* 執行模式 */
+/* } */
+/* #leftWheel{
+    position: relative;
+    left: 30px;
+    top: 80px;
+} */
+/* #rightWheel{
+    position: relative;
+    left: 80px;
+    top: 80px;
+} */
+
+/* rotating是對應animation-name */
+/* @keyframes rotating {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(300deg);}
+    
+} */
+/* .moveit{
+    animation: moveit 5s linear infinite;
+}
+
+@keyframes moveit {
+    from {transform: translateX(20px);}
+    to {transform: translateX(500px);}
+} */
+
+#car{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(2, 128, 218);
+    left: 146px;
+    bottom:50px;
+    border-top-right-radius: 50px;
+    /* border-top-left-radius: 30px; */
+    margin-top: 150px;
+    border-right: 1px solid rgb(2, 71, 120);
+    border-top: 5px solid rgb(92, 187, 255);
+    border-left: 2px solid rgb(4, 109, 184);
+ }
+ #carbody{
+    background-color: rgb(255, 149, 49);
+    position: fixed;
+    width: 140px;
+    height: 90px;
+    left: 5px;
+    bottom:50px;
+    margin-top: 150px;
+    border-right: 3px solid rgb(175, 102, 33);
+    border-top: 5px solid rgb(255, 182, 114);
+ }
+ .wheel{
+    width: 45px;
+    margin-top: 150px;
+    animation: rotating 1s linear infinite;
+    /* animation-name: rotating; */
+    /* animation-direction: 1s;   */
+    /* 持續時間 */
+    /* animation-iteration-count: infinite;  */
+    /* 重複次數 */
+    /* animation-timing-function: linear; */
+    /* 執行模式 */
+ }
+ #leftWheel{
+    position: relative;
+    left: 20px;
+    bottom:30px;
+ }
+ #rightWheel{
+    position: relative;
+    left: 110px;
+    bottom:30px;
+ }
+ 
+ /* rotating是對應animation-name  */
+ @keyframes rotating {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(300deg);}
+    
+ }
+ .moveit{
+    animation: moveit 2s linear infinite;
+    top:45px;
+    left: 118px;
+ }
+ 
+ @keyframes moveit {
+    from {transform: translateX(-160px) translateY(0px);}
+    to {transform: translateX(300px) translateX(0px);}
+ }
+ .carshadow{
+    width: 100px;
+    height: 20px;
+    background-color: #666;
+ }
